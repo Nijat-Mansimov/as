@@ -1,7 +1,7 @@
 ENABLE_LDAP=true
-LDAP_URL=ldaps://173.23.60.1:636
+LDAP_URL=ldaps://172.22.60.1:636
 LDAP_BIND_DN=CN=office ldap,CN=Users,DC=mnbq,DC=local
-LDAP_BIND_CREDENTIALS=adTfasfXk3rvbLj6PXmIgY9
+LDAP_BIND_CREDENTIALS=KqTfXk3rvbLj6PXmIgY9
 LDAP_SEARCH_BASE=ou=545,ou=Departments-USERS,dc=mnbq,dc=local
 LDAP_SEARCH_FILTER=(sAMAccountName={{username}})
 LDAP_SEARCH_ATTRIBUTES=cn,mail,sAMAccountName
